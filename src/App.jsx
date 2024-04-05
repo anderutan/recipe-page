@@ -1,8 +1,10 @@
+import RecipePage from './components/RecipePage';
+
 function App() {
   return (
-    <>
-      <h1>test</h1>
-    </>
+    <div className='h-screen w-screen bg-eggshell'>
+      <RecipePage />
+    </div>
   );
 }
 
