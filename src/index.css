@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .--subtitle-style {
+    font-size: 1.875rem /* 30px */;
+    line-height: 2.25rem /* 36px */;
+    font-family: 'Young Serif', san-serif;
+    color: hsl(14 45% 36% / var(--tw-text-opacity));
+    margin-bottom: 1rem /* 16px */;
+  }
+}
+
 html {
   box-sizing: border-box;
   font-size: 16px;

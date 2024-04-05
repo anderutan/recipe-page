@@ -9,7 +9,7 @@ export default function Ingredients({ ingredients }) {
 
   return (
     <div className='pb-6 mb-6 border-b-[1px] border-light-grey'>
-      <h2 className='text-2xl font-title text-nutmeg mb-4'>Ingredients</h2>
+      <h2 className='--subtitle-style'>Ingredients</h2>
       <ul>{items}</ul>
     </div>
   );
