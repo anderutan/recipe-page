@@ -27,12 +27,12 @@ const Recipe = [
     ],
     nutrition:
       'The table below shows nutritional values per serving without the additional fillings.',
-    nutritionInfo: {
-      Calories: '277kcal',
-      Carbs: 'Og',
-      Protein: '20g',
-      Fat: '22g',
-    },
+    nutritionInfo: [
+      'Calories: 277kcal',
+      'Carbs: 0g',
+      'Protein: 20g',
+      'Fat: 22g',
+    ],
     image: recipeImage,
   },
 ];

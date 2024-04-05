@@ -1,6 +1,7 @@
 import Recipe from '../data/Recipe';
 import Ingredients from './Ingredients';
 import Instructions from './Instructions';
+import Nutrition from './Nutrition';
 import PreparationTime from './PreparationTime';
 
 export default function RecipePage() {
@@ -18,6 +19,10 @@ export default function RecipePage() {
             <PreparationTime prepareTime={recipe.preparationTime} />
             <Ingredients ingredients={recipe.ingredients} />
             <Instructions instructions={recipe.instructions} />
+            <Nutrition
+              nutrition={recipe.nutrition}
+              nutritionInfo={recipe.nutritionInfo}
+            />
           </div>
         </div>
       ))}
