@@ -4,7 +4,7 @@ export default {
   theme: {
     screens: {
       mb: '375px',
-      dt: '1440px',
+      dt: '1024px',
     },
     fontFamily: {
       title: ['Young Serif', 'san-serif'],

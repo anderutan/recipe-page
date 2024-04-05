@@ -7,10 +7,13 @@ import PreparationTime from './PreparationTime';
 export default function RecipePage() {
   console.log(Recipe);
   return (
-    <div>
+    <div className='dt:--dt-style'>
       {Recipe.map((recipe, index) => (
-        <div key={index} className='bg-white text-dark-charcoal font-body'>
-          <img src={recipe.image} alt='' className='' />
+        <div
+          key={index}
+          className='bg-white text-dark-charcoal font-body dt:p-10 dt:rounded-xl'
+        >
+          <img src={recipe.image} alt='' className='rounded-lg' />
           <div className='p-8'>
             <h1 className='text-[36px] font-title font-medium leading-10 mb-5'>
               {recipe.title}

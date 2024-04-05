@@ -10,6 +10,12 @@
     color: hsl(14 45% 36% / var(--tw-text-opacity));
     margin-bottom: 1rem /* 16px */;
   }
+
+  .--dt-style {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+  }
 }
 
 html {
